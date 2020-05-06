@@ -1,11 +1,14 @@
 import React from 'react';
-import {Pie, Doughnut} from 'react-chartjs-2';
+import {Pie, Doughnut, Bar} from 'react-chartjs-2';
 
 const state = {
   labels: ['January', 'February', 'March',
            'April', 'May'],
   datasets: [
     {
+      barThickness: 45,
+      categoryWidth: 1,
+      minBarLength: 2,
       label: 'Rainfall',
       backgroundColor: [
         '#B21F00',
@@ -67,6 +70,27 @@ export default class App extends React.Component {
             responsive: true,
             maintainAspectRatio: true
           }}
+        />
+      </div>
+      <div className="data-div col-md-6 float-left">
+      <Bar 
+          data={state}
+          options = {{
+            scales: {
+              yAxes: [{
+                 ticks: {
+                    min: 10,
+                    max: 100,
+                    stepSize: 10
+                 }
+              }],
+              title:{
+                display:true,
+                text:'Average Rainfall per month',
+                fontSize:20
+            }
+          }
+        }}
         />
       </div>
       </div>
