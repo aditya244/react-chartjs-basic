@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fecd939218b8ba55b07ec1045f2c96af",
+    "revision": "e6f4372efcf62d16d36b05560bfc7b99",
     "url": "/react-chartjs-basic/index.html"
   },
   {
-    "revision": "30f71da434c9375c774f",
+    "revision": "d1718ec4178e6c9f227b",
     "url": "/react-chartjs-basic/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "7dcc711de463adc5da31",
-    "url": "/react-chartjs-basic/static/js/2.b67d6a19.chunk.js"
+    "revision": "b3ac4b6f9d5f9a37287e",
+    "url": "/react-chartjs-basic/static/js/2.a39083b1.chunk.js"
   },
   {
     "revision": "b4cabae32341920cfb4131dbdebda2c2",
-    "url": "/react-chartjs-basic/static/js/2.b67d6a19.chunk.js.LICENSE.txt"
+    "url": "/react-chartjs-basic/static/js/2.a39083b1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "30f71da434c9375c774f",
-    "url": "/react-chartjs-basic/static/js/main.65f44312.chunk.js"
+    "revision": "d1718ec4178e6c9f227b",
+    "url": "/react-chartjs-basic/static/js/main.d398c941.chunk.js"
   },
   {
     "revision": "4aa7edb1113545925c9c",
