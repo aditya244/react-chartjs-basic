@@ -30,7 +30,9 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="container">
-        <h1 className="text-center"> Chart JS App</h1>
+        <div className="jumbotron">
+          <h1 className="text-center"> Chart JS App</h1>
+        </div>
         <div className="data-div col-md-6 float-left">
         <Pie
           data={state}
